@@ -3,8 +3,6 @@ body {
     background-color: #fcfcfc;
     margin: 0;
     padding: 0;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #047ba7, #415f58);
-    background-size: 400% 400%;
 }
 
 .magazine-viewport .container {
@@ -133,6 +131,11 @@ body {
     -moz-transition: -moz-box-shadow 0.5s;
     -o-transition: -webkit-box-shadow 0.5s;
     -ms-transition: -ms-box-shadow 0.5s;
+    -webkit-box-shadow: 0 0 20px #ccc;
+    -moz-box-shadow: 0 0 20px #ccc;
+    -o-box-shadow: 0 0 20px #ccc;
+    -ms-box-shadow: 0 0 20px #ccc;
+    box-shadow: 0 0 20px #ccc;
 }
 
 .magazine-viewport .next-button,
@@ -303,7 +306,7 @@ body {
     height: 30px;
     font: bold 30px arial;
     line-height: 30px;
-    color: #666;
+    color: #ccc;
     display: block;
     cursor: default;
     -webkit-text-stroke: 1px black;
